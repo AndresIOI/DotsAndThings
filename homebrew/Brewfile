@@ -1,0 +1,10 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "composer"
+brew "mysql", restart_service: true
+brew "php@7.4"
+cask "dbeaver-community"
+cask "iterm2"
+cask "spotify"
